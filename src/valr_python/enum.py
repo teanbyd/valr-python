@@ -47,6 +47,8 @@ class TradeEvent(NameStrEnum):
     MARKET_SUMMARY_UPDATE = auto()
     NEW_TRADE_BUCKET = auto()
     NEW_TRADE = auto()
+    FULL_ORDERBOOK_UPDATE = AUTO()
+    FULL_ORDERBOOK_SNAPSHOT = AUTO()
 
 
 class AccountEvent(NameStrEnum):
@@ -131,3 +133,9 @@ class CurrencyPair(NameStrEnum):
     ETHZAR = auto()
     XRPZAR = auto()
     SOLZAR = auto()
+    BNBZAR = auto()
+    AVAXZAR = auto()
+    BTCUSDC = auto()
+    SHIBZAR = auto()
+    USDCZAR = auto()
+    
